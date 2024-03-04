@@ -46,11 +46,11 @@ const calculer= (valeur)=>{
 window.addEventListener('error',(e)=>{
     alert('il existe une erreur à ce que vous avez saisi :'+e.error.message)
 })
-const butons=document.querySelectorAll('.bouton');
+// const butons=document.querySelectorAll('.bouton');
 
-butons.forEach((element)=>{
-    console.log(element);
-    element.addEventListener('click',(e)=>{
-        element.classList.toggle('cool');
-    })
-})
+// butons.forEach((element)=>{
+//     console.log(element);
+//     element.addEventListener('click',(e)=>{
+//         element.classList.toggle('cool');
+//     })
+// })
